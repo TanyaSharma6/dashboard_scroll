@@ -16,27 +16,27 @@ const Sidebar = ({children}) => {
     const menuItem=[
         {
             path:"/",
-            name:"Dashboard",
+            name:"Home",
             icon:<FaTh/>
         },
         {
             path:"/about",
-            name:"Product",
+            name:"Notification",
             icon:<FaUserAlt/>
         },
         {
             path:"/analytics",
-            name:"Customers",
+            name:"Shop",
             icon:<FaRegChartBar/>
         },
         {
             path:"/comment",
-            name:"Income",
+            name:"Wallet",
             icon:<FaCommentAlt/>
         },
         {
             path:"/product",
-            name:"Promote",
+            name:"Subscription",
             icon:<FaShoppingBag/>
         },
         {
@@ -49,7 +49,8 @@ const Sidebar = ({children}) => {
         <div className="container-df">
            <div style={{}} className="sidebar">
                <div className="top_section">
-               <img src={dashboardImg} alt='dashboard' width='20%' /><h1 style={{ marginLeft:'8px'}} className="logo"> Dashboard</h1>
+               {/* <img src={dashboardImg} alt='dashboard' width='20%' /> */}
+               <h1 style={{ marginLeft:'8px'}} className="logo"> Logo</h1>
                    <div className="bars">
                     
                    </div>
